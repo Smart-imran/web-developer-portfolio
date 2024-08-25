@@ -200,15 +200,36 @@ main section{
     text-align: center;
 }
 
+.social-links a{
+    margin-right: 25px;
+}
+
 
 
 /* footer style */
 
 .footer{
     display: flex;
+    gap: 100px;
     justify-content: space-between;
     padding: 130px 230px;
     margin-top: 20px;
     background: #FFF8F3;
+}
+
+.footer-column{
+    width: 50%;
+    
+}
+
+.contact input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    columns: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
 }
 
