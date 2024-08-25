@@ -200,3 +200,15 @@ main section{
     text-align: center;
 }
 
+
+
+/* footer style */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    margin-top: 20px;
+    background: #FFF8F3;
+}
+
